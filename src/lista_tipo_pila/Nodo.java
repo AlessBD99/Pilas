@@ -5,19 +5,21 @@ package lista_tipo_pila;
  * @author Alessandro
  */
 public class Nodo {
-
+    
+    ///////////////////////////// Atributos //////////////////////////////
    public int dato;
    public Nodo next;
     
+   //////////////////////////// Constructores ////////////////////////////
     public Nodo() {
        
     }
-
     public Nodo(int dato) {
         this.dato = dato;
         this.next = null;
     }
     
+    ///////////////////////// Setter and Getter /////////////////////////////
     public int getDato() {
         return dato;
     }
